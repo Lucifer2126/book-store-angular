@@ -1,0 +1,3 @@
+<!-- <a routerLink="/public/book-details/{{bookId}}">details</a> -->
+<a [routerLink] = "['book-details', bookId, 'author', authorId]">details</a>
+<router-outlet></router-outlet>
