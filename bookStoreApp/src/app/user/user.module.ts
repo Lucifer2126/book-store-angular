@@ -6,16 +6,8 @@ import { AddBookComponent } from './components/add-book/add-book.component';
 import { DeleteBookComponent } from './components/delete-book/delete-book.component';
 import { UserComponent } from './user.component';
 
-
 @NgModule({
-  declarations: [
-    AddBookComponent,
-    DeleteBookComponent,
-    UserComponent
-  ],
-  imports: [
-    CommonModule,
-    UserRoutingModule
-  ]
+  declarations: [AddBookComponent, DeleteBookComponent, UserComponent],
+  imports: [CommonModule, UserRoutingModule],
 })
-export class UserModule { }
+export class UserModule {}
